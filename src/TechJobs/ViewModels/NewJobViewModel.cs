@@ -9,7 +9,8 @@ namespace TechJobs.ViewModels
 {
     public class NewJobViewModel
     {
-        [Required]
+        //this is for refrence, the default message is actually good here
+        [Required(ErrorMessage = "A name is required.")]
         public string Name { get; set; }
 
         [Required]
