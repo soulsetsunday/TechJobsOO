@@ -9,7 +9,7 @@ namespace TechJobs.ViewModels
 {
     public class NewJobViewModel
     {
-        //this is for refrence, the default message is actually good here
+        //this is for refrence, the default message is actually fine
         [Required(ErrorMessage = "A name is required.")]
         public string Name { get; set; }
 
