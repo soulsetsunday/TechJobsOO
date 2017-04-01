@@ -23,7 +23,7 @@ namespace TechJobs.Controllers
             Job sendJob = jobData.Find(id);
 
             return View(sendJob);
-            //This should be a viewmodel
+            //This should be a viewmodel, maybe
         }
 
         public IActionResult New()
